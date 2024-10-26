@@ -17,9 +17,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: Checkout
-              uses: actions/chackout@v4
+              uses: actions/checkout@v4
             - name: Merge Branch
-              uses: devsmasx/merge-branch@1.4.0
+              uses: devmasx/merge-branch@1.4.0
               with:
                 type: now
                 target_branch: main
